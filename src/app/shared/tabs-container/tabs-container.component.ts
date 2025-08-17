@@ -2,9 +2,10 @@ import { Component, AfterContentInit, ContentChildren, QueryList } from '@angula
 import { TabComponent } from '../tab/tab.component';
 
 @Component({
-  selector: 'app-tabs-container',
-  templateUrl: './tabs-container.component.html',
-  styleUrls: ['./tabs-container.component.css']
+    selector: 'app-tabs-container',
+    templateUrl: './tabs-container.component.html',
+    styleUrls: ['./tabs-container.component.css'],
+    standalone: false
 })
 export class TabsContainerComponent implements AfterContentInit {
 
